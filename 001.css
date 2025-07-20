@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
+body{
+    padding: 70px;
+    overflow-x: hidden;
+    background: linear-gradient(to right, #1E1A2E, #5C4F6E, #B3A8C9 );
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #1E1A2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    border: 2px solid #B3A8C9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+}
+#logo{
+    color: white;
+    display: flex;
+}
+#logo h2{
+    margin-left: 5px;
+}
+#content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+#content a:hover{
+    background-color: #B3A8C9;
+    color: #1E1A2E;
+    border-radius: 25px;
+}
+.hero{
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+
+}
+.searchbox{
+    padding-top: 20px;
+    padding-left: 900px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#search{
+    display:inline-block;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: white;
+    border: 2px solid #1E1A2E;
+    color: #5C4F6E;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-left: 0;
+    width: 300px;
+}
+.searchbox i{
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border: 2px solid #1E1A2E;
+}
+.matter{
+    padding-top: 400px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #000000;
+
+}
+.matter h1{
+    font-size: 60px;
+}
+.matter i{
+    font-size: 30px;
+}
+@media(max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        align-items:center;
+    }
+    .searchbox{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
