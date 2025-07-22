@@ -130,6 +130,15 @@ body{
     background-repeat: no-repeat;
     border-radius: 25px;
     object-fit: cover;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    }
+    .searchbox{
+        width: 100%;
+        margin-top: 10px;
+        padding: 3px;
     }
     .matter{
     padding-top: 40px;
@@ -175,8 +184,14 @@ body{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     object-fit: cover;
     display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
+    }
+    .searchbox{
+        width: 100%;
+        margin-top: 10px;
+        padding: 3px;
     }
     .matter{
     padding-top: 40px;
