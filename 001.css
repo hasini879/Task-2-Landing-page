@@ -121,7 +121,6 @@ body{
     width: 100%;
     background-image: url(image.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
     display: flex;
