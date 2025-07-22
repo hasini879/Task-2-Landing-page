@@ -65,8 +65,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+    flex-wrap: wrap;
 }
 #search{
     display:inline-block;
@@ -108,7 +107,7 @@ body{
     }
         
     .navbar{
-        height: 40px
+        height: 40px;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -116,7 +115,7 @@ body{
         padding: 5px 10px;
     }
     .hero{
-    margin-top: 5px
+    margin-top: 5px;
     height: auto;
     width: 100%;
     background-image: url(image.png);
@@ -166,7 +165,7 @@ body{
     height: 90vh;
     width: 100%;
     background-image: url(image.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
