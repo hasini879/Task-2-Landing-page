@@ -114,7 +114,7 @@ body{
         align-items:center;
     }
     .hero{
-        height: 300px;
+        height: 400px;
         background-image: url(image.png);
         background-size: cover;
         background-position: center;
