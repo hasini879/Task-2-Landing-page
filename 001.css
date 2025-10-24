@@ -102,13 +102,49 @@ body{
 .matter i{
     font-size: 30px;
 }
-@media(max-width: 768px){
+@media(max-width: 600px){
+    body{
+        padding: 20px;
+    }
     .navbar{
+        padding: 10px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-items:center;
     }
+    .hero{
+        height: 400px;
+        background-image: url(image.png);
+        background-size: cover;
+        background-position: center;
+        margin-top: 20px;
+    }
+
     .searchbox{
         width: 100%;
         margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2px;
+        padding-left: 0;
+    }
+    #search{
+        width: 80%;
+        margin-left: 0;
+    }
+    .matter{
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .matter h1{
+        font-size: 40px;
+    }
+    .matter i{
+        font-size: 20px;
     }
 }
